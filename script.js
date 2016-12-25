@@ -10,10 +10,10 @@ var wrapper = $('#wrapper'),
     xMax = width - blockW - 1,
     yMin = 1,
     yMax = height - blockH - 1,
-    xMinDistance = blockW + 10,
-    yMinDistance = blockH + 1,
     coeffX = 10,
     coeffY = 1,
+    xMinDistance = blockW + coeffX,
+    yMinDistance = blockH + coeffY,
     blockTemplate = '<span class="block"></span>';
 
 var generate = function () {
